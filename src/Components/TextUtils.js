@@ -36,7 +36,7 @@ const HandleLowerChange=(event)=>{
       <button className='btn btn-primary mx-2' onClick={HandleClear}>Clear Text</button>
     </div>
     <div className='container'>
-      <p>The total Lenght of your character is {text.length}, The Length of your Total Words is {text.split(' ').length}</p>
+      <p>The total Lenght of your Testing character is {text.length}, The Length of your Total Words is {text.split(' ').length}</p>
       <h2>{props.h2heading}</h2>
       <p>{text}</p>
     </div>
