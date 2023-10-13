@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Weather Project Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple project designed to help you learn how to deploy a website to GitHub Pages using GitHub Actions. The project consists of two main features:
 
-## Available Scripts
+1. **Weather API Viewer (weather-api):** This feature allows you to fetch weather information using a JavaScript-based Weather API. You can enter a location, and the application will retrieve and display weather data for that location.
 
-In the project directory, you can run:
+2. **Text Utils (text-utils):** The Text Utils feature provides two text transformation options - converting text to uppercase or lowercase. You can input text, select the desired transformation, and the application will generate the transformed text for you.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Weather API Viewer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Click on the "Weather API" link in the navigation menu to access the Weather API Viewer.
+2. Enter the name of a location you'd like to check the weather for.
+3. Click the "Get Weather" button to retrieve and display weather information.
 
-### `npm test`
+### Text Utils
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Click on the "Text Utils" link in the navigation menu to access the Text Utils feature.
+2. Enter the text you want to transform in the input field.
+3. Select either "Uppercase" or "Lowercase" transformation.
+4. Click the "Transform Text" button to generate the transformed text.
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses GitHub Actions for automatic deployment to GitHub Pages. The deployment process is triggered automatically whenever you push changes to the `main` branch of this repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To enable GitHub Pages for this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Create a GitHub repository for your project.
+2. Commit your project files to the repository, ensuring you have at least an `index.html` file for the web pages.
+3. Navigate to the "Settings" tab of your repository.
+4. Scroll down to the "GitHub Pages" section.
+5. In the "Source" drop-down menu, select the "main" branch.
+6. Click "Save" to enable GitHub Pages.
 
-### `npm run eject`
+GitHub Actions will take care of the deployment for you. The deployed website will be available at `https://yourusername.github.io/your-repository-name`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Additional Information
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project serves as a basic example to learn the basics of GitHub Actions and GitHub Pages. You can customize and expand upon this project to create more complex web applications or use it as a starting point for your own projects.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to explore the code and experiment with different features. If you have any questions or encounter issues, please check the documentation, and don't hesitate to open an issue or seek help from the project's community.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open-source and available under the [MIT License](LICENSE) - feel free to modify and use it according to your needs.
